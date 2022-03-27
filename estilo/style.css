@@ -240,7 +240,8 @@ aside .container p:last-child{
 
 footer{
     text-align: center;
-    padding: 20px 0;
+    background-color: #d6d6d6;
+    padding: 10px 2% 30px 2%;
 }
 
 footer p:first-child{
@@ -257,7 +258,7 @@ footer p:nth-child(2){
 
 footer p:nth-of-type(3){
     padding: 10px;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid rgb(255, 255, 255);
     margin-top: 8px;
     font-size: 12px;
    
