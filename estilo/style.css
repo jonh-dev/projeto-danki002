@@ -272,8 +272,10 @@ footer img{
     margin-top: 20px;
     width: 150px;
 }
-@media screen and (max-width:960px){
+
+@media screen and (max-width:1215px){
     .bg{
+        height: 650px;
         text-align: center;
     }
 
@@ -286,9 +288,26 @@ footer img{
     }
 
     .arrow{
-        display: none;
+        position: relative;
+        top: 65px;
+        left: 50%;
+        margin-left: -20px;
     }
-    
+}
+
+
+@media screen and (max-width:960px){
+    .bg{
+        text-align: center;
+    }
+
+    .form-container{
+        height: auto;
+        width: 96%;
+        max-width: 400px;
+        position: static;
+        display: inline-block;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -303,6 +322,13 @@ footer img{
 
     .item-2-mosaico{
         width: 100%;
+    }
+
+    .arrow{
+        position: relative;
+        top: 65px;
+        left: 50%;
+        margin-left: -20px;
     }
 }
 
@@ -320,7 +346,24 @@ footer img{
         margin-top: 20px;
     }
 
+    .bg{
+        height: 675px;
+        text-align: center;
+    }
+
     .arrow{
-        display: none;
+        position: relative;
+        top: 90px;
+        left: 50%;
+        margin-left: -20px;
+    }
+}
+
+@media screen and (max-width: 326px){
+    .arrow{
+        position: relative;
+        top: 65px;
+        left: 50%;
+        margin-left: -20px;
     }
 }
